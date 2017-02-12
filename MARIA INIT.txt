@@ -1,0 +1,14 @@
+RUN DEVELOPMENT APPLICATION
+
+Open terminal - Windows-R, type 'cmd', Enter
+> cd Slackbot
+> cd dolores-landingham-slack-bot (tab-complete)
+> vagrant reload
+> vagrant ssh
+$ cd /vagrant
+$ foreman start
+
+Navigate browser to localhost:5000
+
+ACCESS RAILS CONSOLE
+$ rails c

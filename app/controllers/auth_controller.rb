@@ -2,14 +2,14 @@ class AuthController < ApplicationController
   skip_before_action :authenticate_user!, only: [:oauth_callback]
 
   def oauth_callback
-    if team_member?
+    # if team_member?
       user = User.find_or_create_by(email: auth_email)
       sign_in(user)
       flash[:success] = I18n.t('controllers.auth_controller.successes.oauth_callback')
       redirect_to root_path
-    else
-      render :forbidden
-    end
+    # else
+    #   render :forbidden
+    # end
   end
 
   private
