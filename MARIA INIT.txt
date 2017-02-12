@@ -14,3 +14,27 @@ ACCESS RAILS CONSOLE
 $ rails c
 
 
+GIT FLOW 
+[USE GIT BASH, not regular terminal]
+
+Checkout a new branch
+git checkout -b "branch-name"
+DON'T CHECKOUT MASTER BRANCH
+
+Push a new branch
+git push origin branch-name
+
+Stage a commit
+git add .
+git commit -m "Commit message"
+
+Merge master branch into current branch
+git pull origin master
+
+Delete a branch
+git branch -d branch-name
+
+Check name current branch
+git branch
+
+This is a text edit
