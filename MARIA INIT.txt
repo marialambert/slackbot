@@ -12,3 +12,5 @@ Navigate browser to localhost:5000
 
 ACCESS RAILS CONSOLE
 $ rails c
+
+
